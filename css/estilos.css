@@ -1,0 +1,61 @@
+@import url('reset.css');
+@import url('fuentes.css');
+
+*{
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+	color:#fff;
+	text-decoration: none;
+	font-size: 2em;
+}
+*:hover{
+	animation: none;
+}
+a:hover{
+	animation-duration: .5s;
+	animation-name: fade;
+	text-decoration: underline;
+}
+
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4; font-size: 1em} 
+  to {opacity: 1; font-size: 1.2em}
+}
+
+@keyframes fade {
+  from {opacity: .4; font-size: 1em} 
+  to {opacity: 1; font-size: 1.2em}
+}
+/*------------*/
+
+
+
+
+body{
+	background: #000;
+}
+
+header div{
+	text-align: center;
+	padding: 5%;
+	font-size: 3em;
+}
+ul{
+	float: none;
+}
+li{
+	height: 50px;
+	padding: 2%;
+	text-align: center;
+}
