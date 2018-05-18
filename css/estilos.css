@@ -16,6 +16,7 @@ a:hover{
 	animation-duration: .5s;
 	animation-name: fade;
 	text-decoration: underline;
+	font-size: 1.2em;
 }
 
 
